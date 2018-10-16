@@ -1,0 +1,32 @@
+<div class="notes">
+  <div>
+    <label for="my-input" style="font-size:30px">Enter Notes</label>
+    <textarea id="my-input" 
+    class="form-control" 
+    rows="3" cols="10" 
+    name="notee" 
+    #inputnotes
+    required>
+  </textarea><br/>
+    <button (click)="onAddPost(inputnotes.value)" 
+    class="btn btn-success">
+    AddNotes
+  </button>
+  </div>
+
+  <hr>
+  <br>
+  <div class="exnotes">
+    <a *ngFor="let item of notes; let i = index">
+      <div class="card">
+        <p>{{ item.note }}</p>
+        <hr>
+        <button  (click) = "onEditNotes(i)" class="btn btn-primary edit">Edit</button>&nbsp;
+        <button (click) = "onSave()" class="btn btn-info">save</button>&nbsp;
+        <button (click) = "onDeleteNotes(i)" class="btn btn-danger delete">Delete</button>
+      </div>
+      <br/>
+    </a>
+  </div>
+
+</div>

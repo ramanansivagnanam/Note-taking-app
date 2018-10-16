@@ -1,0 +1,77 @@
+.welcome{
+  margin: 30px 50px;
+  height: 600px;
+  background: linear-gradient(65deg,rgb(100, 105, 179),blue,pink,rgb(212, 144, 156));
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  /* background-color: aqua; */
+}
+.note-header{
+  height: 50px;
+  width: 100%;
+  background-color: aliceblue;
+  box-shadow: 0px 2px 3px white;
+}
+.note-step1{
+    margin: 20px 20px;
+    /* border: 2px solid gray; */
+    height: 300px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 3px 3px red;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.note-step1:hover,.note-step2:hover,.note-step3:hover{
+    transform: scale(1.2);
+    background-color: rgb(223, 217, 217)
+}
+.note-step2{
+    margin: 20px 20px;
+    /* border: 2px solid gray; */
+    height: 300px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 3px 3px blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.note-step3{
+    margin: 20px 20px;
+    /* border: 2px solid gray; */
+    height: 300px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 3px 3px rgb(219, 44, 161);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.create-acc{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px auto;
+}
+.create-acc{
+    animation-name: keywordcolor;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes keywordcolor{
+    0%{
+        color: rgb(143, 143, 223);
+    }
+    50%{
+       color: rgb(222, 45, 238);
+    }
+    100%{
+        color: rgb(243, 185, 61);
+    }
+}

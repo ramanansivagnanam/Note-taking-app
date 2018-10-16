@@ -1,0 +1,30 @@
+.notes{
+    margin: 40px 0px 0px 80px;
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    border: 2px solid black;
+}
+.exnotes{
+    width: 50%;
+    font-size: 30px;
+}
+.card{
+    background-color: white;
+    box-shadow:  2px 5px 5px white;
+    border:1px solid rgb(169, 169, 241);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.card:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(42, 105, 199);
+    height: 60px;
+    display: flex;
+    /* flex-flow: row; */
+}
+.navbar-header h1 {
+    font-size: 25px;
+    margin: 5px 0px;
+    color: white;
+    padding-left: 20px;
+}
+.navbar-header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-ele a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:20px; 
+}
+.navbar-ele ul li {
+    list-style: none;
+     padding: 5px 20px;
+}
+.navbar-ele ul{
+    display: flex;
+    flex-flow: row;
+    margin-left: 200px;
+}
+.navbar-ele a:hover{
+    background-color: orange;
+}
+.navbar-ele a:active{
+    background-color: tomato
+}
